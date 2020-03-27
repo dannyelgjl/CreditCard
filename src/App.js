@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
+
+import Routes from "./routes";
 
 function App() {
-  return <h1>ok</h1>;
+  return <Routes />;
 }
 
 export default App;
